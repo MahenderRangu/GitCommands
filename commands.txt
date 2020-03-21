@@ -44,6 +44,10 @@ git rm file
 // to remove the log files using pattern
 git rm log/\*.log
 
+// Git log command 
+git log --stat
+git log --pretty=oneline
+
 
 
 
