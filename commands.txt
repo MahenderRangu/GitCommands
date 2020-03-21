@@ -69,7 +69,16 @@ git remote rm or remove
 // to lsit he tagging
 git tag -l
 
+//creating a new branch
+git branch name
+//switching the branch
+git checkout branch name --Head points ti the current branch
 
+git log --all shows the history from all branches
+
+git log --oneline --decorate --graph --all
+
+//git checkout -b iss53
 
 
 
