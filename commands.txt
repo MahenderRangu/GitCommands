@@ -22,9 +22,11 @@ stage --> commit --> unmodified.
 git status
 
 // commadn to unstage 
+Unstaging a Staged File
 git restore --staged file
 git reset HEAD <file>...
 // to discard he current change in the working directory
+Unmodifying a Modified File
 git restore file
 git checkout -- <file>...
 
@@ -47,6 +49,28 @@ git rm log/\*.log
 // Git log command 
 git log --stat
 git log --pretty=oneline
+
+// to change the commit mesage
+git commit --amend
+
+//to lsit he remote information
+git remote -v
+
+// fetch and pull
+git fetch origin, -- ot dowloads the inf from remote origin and doesnt automatically mege
+git pull irgin -- doenalods the latest infomration from remote reposti adn merge with local
+git push origin master: here the origin is the rmoete reposity
+//to inspect the rempte origin
+git remote show origin
+
+//to remove the remote orgin
+git remote rm or remove
+
+// to lsit he tagging
+git tag -l
+
+
+
 
 
 
