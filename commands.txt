@@ -21,4 +21,33 @@ stage --> commit --> unmodified.
 
 git status
 
+// commadn to unstage 
+git restore --staged file
+git reset HEAD <file>...
+// to discard he current change in the working directory
+git restore file
+git checkout -- <file>...
+
+
+//to see what you have changes but not staged
+git diff
+//to comapre the stage changes to the last commit
+git diff --staged
+
+//to stage the file before commit -a for comit command
+git commit -a -m "commit message" // thi skip the git add command
+
+//Remove the file from git 
+git rm file
+--cahced and --staged are similiar
+
+// to remove the log files using pattern
+git rm log/\*.log
+
+
+
+
+
+
+
 
