@@ -1,0 +1,24 @@
+git init
+git config --list --show-origin
+git add --help
+git --version
+git config --global user.name "John Doe" and email
+
+$ git help <verb>
+$ git <verb> --help 
+$ man git-<verb>
+
+git clone https://github.com/libgit2/libgit2 --> git repository url
+
+The life cycle of the sttus of file
+untracked, umodified, modified and staged
+
+untracked --> add --> staged.
+unmodified --> edit the file --> modified --> stage the file --> staged
+unmodifed --> remove the file --> untracked
+
+stage --> commit --> unmodified.
+
+git status
+
+
